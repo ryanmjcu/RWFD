@@ -15,12 +15,16 @@ I wanted to keep this concise and just identify a few, varied questions to answe
 6. How many patients visited this ED per month, and how does that look compared to the rolling/running total?
 
 To see my full, annotated code, [click here!](RWFD.sql)
+
+Additionally, I realized that this dataset would make for a great dashboard on Tableau, [click here to visit my Tableau Public page and see my viz!](https://public.tableau.com/app/profile/ryan.johnson8348/viz/RWFDEDDashboard/Dashboard1)
 # Tools Used
 As with my other projects, I utilized only a few tools to complete this analysis:
 - SQL
-- PostgreSQL
+- PostgreSQL]
+- Tableau
 - Visual Studio Code (VSCode)
 - Git + GitHub
+
 # Analysis
 
 ### Pre-Analysis Data Inspection:
