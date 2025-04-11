@@ -20,7 +20,7 @@ Additionally, I realized that this dataset would make for a great dashboard on T
 # Tools Used
 As with my other projects, I utilized only a few tools to complete this analysis:
 - SQL
-- PostgreSQL]
+- PostgreSQL
 - Tableau
 - Visual Studio Code (VSCode)
 - Git + GitHub
@@ -213,6 +213,7 @@ I had a few key learning points from this mini-project:
 - **Advanced Functions:** I learned how to apply CASE WHEN and window functions in real-life scenarios!
 - **Limiting My Exploration:** There are countless other questions that could be answered here, but I found myself identifying just six questions that I felt were important either from an analytic standpoint, or a learning standpoint for me.
 - **Problem-Solving:** As with every coding project, errors were encountered and I had to find the correct resources needed to answer my questions.. about my quesitions!
+- **Dashboard Creation:** I created a full dashboard based on this data to give a holisitc representation of the data, I learned how to create different graphs, filter data, and more through the creation of this dashboard.
 
 # Concluding Insight
 I had a single primary insight regarding this EDA:
