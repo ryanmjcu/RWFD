@@ -26,13 +26,13 @@ As with my other projects, I utilized only a few tools to complete this analysis
 ### Pre-Analysis Data Inspection:
 Before diving into my questions, I was curious about general characteristics of this dataset, so I looked into more broad questions like "How many patients visited this ED across the whole available timeframe?" or "How many patients of each reported race visited this ED?" etc. So here's a few result sets that I find give us a baseline understanding of the population we see at this ED: 
 
-A. How many total patients were seen?
+- How many total patients were seen?
 
 |patient_count|
 ---------------
 |9216         |
 
-B. How many patients identified with each race category?
+- How many patients identified with each race category?
 
 | Patient Race                        | Count |
 |------------------------------------|-------|
@@ -44,13 +44,13 @@ B. How many patients identified with each race category?
 | Pacific Islander                   | 549   |
 | Native American/Alaska Native      | 498   |
 
-C. What was the average satisfaction score among those who responded?
+- What was the average satisfaction score among those who responded?
 
 |avg_sat_score|
 -----
 |4.99|
 
-D. How many patients received referrals to each department?
+- How many patients received referrals to each department?
 
 | Department Referral     | Count |
 |-------------------------|-------|
