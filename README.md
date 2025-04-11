@@ -47,8 +47,8 @@ Before diving into my questions, I was curious about general characteristics of 
 - What was the average satisfaction score among those who responded?
 
     |avg_sat_score|
-    -----
-    |4.99|
+    ----------------
+    |4.99         |
 
 - How many patients received referrals to each department?
 
