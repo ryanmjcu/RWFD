@@ -28,40 +28,40 @@ Before diving into my questions, I was curious about general characteristics of 
 
 - How many total patients were seen?
 
-|patient_count|
----------------
-|9216         |
+    |patient_count|
+    ---------------
+    |9216         |
 
 - How many patients identified with each race category?
 
-| Patient Race                        | Count |
-|------------------------------------|-------|
-| White                              | 2571  |
-| African American                   | 1951  |
-| Two or More Races                  | 1557  |
-| Asian                              | 1060  |
-| Declined to Identify               | 1030  |
-| Pacific Islander                   | 549   |
-| Native American/Alaska Native      | 498   |
+    | Patient Race                        | Count |
+    |------------------------------------|-------|
+    | White                              | 2571  |
+    | African American                   | 1951  |
+    | Two or More Races                  | 1557  |
+    | Asian                              | 1060  |
+    | Declined to Identify               | 1030  |
+    | Pacific Islander                   | 549   |
+    | Native American/Alaska Native      | 498   |
 
 - What was the average satisfaction score among those who responded?
 
-|avg_sat_score|
------
-|4.99|
+    |avg_sat_score|
+    -----
+    |4.99|
 
 - How many patients received referrals to each department?
 
-| Department Referral     | Count |
-|-------------------------|-------|
-| None                    | 5400  |
-| General Practice        | 1840  |
-| Orthopedics             | 995   |
-| Physiotherapy           | 276   |
-| Cardiology              | 248   |
-| Neurology               | 193   |
-| Gastroenterology        | 178   |
-| Renal                   | 86    |
+    | Department Referral     | Count |
+    |-------------------------|-------|
+    | None                    | 5400  |
+    | General Practice        | 1840  |
+    | Orthopedics             | 995   |
+    | Physiotherapy           | 276   |
+    | Cardiology              | 248   |
+    | Neurology               | 193   |
+    | Gastroenterology        | 178   |
+    | Renal                   | 86    |
 
 Now that I have a general understanding of some of the data, I dove into answering my questions. 
 
