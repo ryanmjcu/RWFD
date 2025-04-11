@@ -27,11 +27,13 @@ As with my other projects, I utilized only a few tools to complete this analysis
 Before diving into my questions, I was curious about general characteristics of this dataset, so I looked into more broad questions like "How many patients visited this ED across the whole available timeframe?" or "How many patients of each reported race visited this ED?" etc. So here's a few result sets that I find give us a baseline understanding of the population we see at this ED: 
 
 A. How many total patients were seen?
+
 |patient_count|
 ---------------
 |9216         |
 
 B. How many patients identified with each race category?
+
 | Patient Race                        | Count |
 |------------------------------------|-------|
 | White                              | 2571  |
@@ -43,11 +45,13 @@ B. How many patients identified with each race category?
 | Native American/Alaska Native      | 498   |
 
 C. What was the average satisfaction score among those who responded?
+
 |avg_sat_score|
 -----
 |4.99|
 
 D. How many patients received referrals to each department?
+
 | Department Referral     | Count |
 |-------------------------|-------|
 | None                    | 5400  |
@@ -77,6 +81,7 @@ ORDER BY
     age_avg DESC,
     race_count DESC;
 ```
+
 | patient_gender | Gender_Count | Avg_Age | Patient_Race         | Race_Count |
 |--------|--------------|---------|----------------------|------------|
 | M      | 1296         | 40      | White                | 1296       |
@@ -120,6 +125,7 @@ WHERE patient_sat_score IS NOT NULL
 GROUP BY wait_bin
 ORDER BY wait_bin ASC;
 ```
+
 | wait_bin     | avg_sat_score |
 |-------------------|-------------------------|
 | 0-20 minutes      | 5.26                    |
@@ -138,6 +144,7 @@ WHERE patient_sat_score IS NOT NULL
 GROUP BY department_referral
 ORDER BY avg_sat_score ASC;
 ```
+
 | Department_Referral     | Avg_sat_score |
 |-------------------------|-------------------------|
 | Renal                   | 4.57                    |
@@ -164,6 +171,7 @@ SELECT CASE
 FROM rwfd
 GROUP BY time_of_day;
 ```
+
 | time_of_day  | avg_wait_mins |
 |--------------|------------------|
 | 0-5am        | 35.37            |
@@ -183,6 +191,7 @@ FROM rwfd
 GROUP BY year_month
 ORDER BY year_month;
 ```
+
 | year_month | monthly_vists | rolling_total |
 |------------|----------------|----------------|
 | 2019-04    | 479            | 479            |
